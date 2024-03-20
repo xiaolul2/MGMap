@@ -1,2 +1,3 @@
-# MGMap
-[CVPR2024] The code for "MGMap: Mask-Guided Learning for Online Vectorized HD Map Construction"
+<div align="center">
+<h1>MGMap</h1>
+<h3>MGMap: Mask-Guided Learning for Online Vectorized HD Map Construction</h3>
