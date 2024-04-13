@@ -4,6 +4,10 @@
 >
 > **[[Paper]](https://arxiv.org/pdf/2404.00876.pdf) (arXiv). CVPR2024**
 
+## News
+- [2024/4/13]: We release the code and checkpoint for camera modality.
+
+
 ## Video Demo
 
 <p align="center"> <a href="https://youtu.be/woTOaVPmHYQ"><img src="assets/video_demo.png" width="75%"></a> </p>
@@ -18,7 +22,7 @@ We propose MGMap, a mask-guided approach that effectively highlights the informa
 
 ## TODO
 
-- [ ] Release the code. (As soon as possible)
+- [x] Release the code.
 
 - [ ] Add configs for LiDAR and fusion modalities.
 
@@ -35,11 +39,11 @@ We propose MGMap, a mask-guided approach that effectively highlights the informa
 
 ### nuScenes dataset
 
-| Model |   Modality   | Backbone | Epoch | mAP  | FPS  |                   Config                    |                 Download                   |
-| :---: | :----------: | :------: | :---: | :--: | :--: | :-----------------------------------------: | :----------------------------------------: |
-| MGMap |    Camera    |   R50    |  30   | 61.4 | 11.6 | [config](https://github.com/xiaolul2/MGMap) | [model](https://github.com/xiaolul2/MGMap) |
-| MGMap |    Lidar     |  Second  |  24   | 67.9 | 5.5  | [config](https://github.com/xiaolul2/MGMap) | [model](https://github.com/xiaolul2/MGMap) |
-| MGMap | Camera&Lidar | R50&Sec  |  24   | 71.7 | 4.8  | [config](https://github.com/xiaolul2/MGMap) | [model](https://github.com/xiaolul2/MGMap) |
+| Model |   Modality   | Backbone | Epoch | mAP  | FPS  |                   Config                              |                 Download                   |
+| :---: | :----------: | :------: | :---: | :--: | :--: | :---------------------------------------------------: | :----------------------------------------: |
+| MGMap |    Camera    |   R50    |  30   | 61.4 | 11.6 | [config](projects/configs/mgmap/mgmap_cam_r50_30e.py) | [model](https://drive.google.com/file/d/19ocihsZFB8BFFDBgrH6P1ys7unR_xC0O/view?usp=drive_link) |
+| MGMap |    Lidar     |  Second  |  24   | 67.9 | 5.5  | [config](https://github.com/xiaolul2/MGMap)           | [model](https://github.com/xiaolul2/MGMap) |
+| MGMap | Camera&Lidar | R50&Sec  |  24   | 71.7 | 4.8  | [config](https://github.com/xiaolul2/MGMap)           | [model](https://github.com/xiaolul2/MGMap) |
 
 
 

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: GeometricKernelAttention
+Version: 1.0
+Summary: PyTorch Wrapper for CUDA Functions of Multi-Scale Geometric Kernel Attention
+Home-page: https://github.com/hustvl
+Author: Tianheng Cheng
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
